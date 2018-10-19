@@ -1,0 +1,23 @@
+*{
+    margin: 2px;
+}
+span {
+    color : red;
+}
+body{
+    background-color: #EAD94C;
+}
+#article {
+    border : 2px solid black;
+    width : 50%;
+    margin :5% 25%;
+    background-color: #D1D1D1;
+}
+.focus {
+    border-color: rgb(113, 245, 113);
+
+}
+.erreur {
+    border-color: red;
+    background: rgb(235, 155, 155);
+}

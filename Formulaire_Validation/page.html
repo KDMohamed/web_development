@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Revision</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="script.js"></script>
+    
+</head>
+<body onload="">
+    <div id="article">
+            <form action="" id="form">
+                    <label for="">Civilite<span>*</span> : </label>
+                    <label for="M">M</label><input type="radio" name="civilite" id="M">
+                    <label for="Mlle">Mlle</label><input type="radio" name="civilite" id="Mll">
+                    <label for="Mme">Mme</label><input type="radio" name="civilite" id="Mme"><br>
+                    <label for="nom">Nom<span>*</span> : </label>
+                    <input type="text" name="" id="nom" ><br>
+                    <label for="prenom">Prenom<span>*</span> : </label>
+                    <input type="text" name="" id="prenom"><br>
+                    <label for="DateDeNaissance">Date de Naissance<span>*</span> : </label>
+                    <input type="text" name="" id="DateDeNaissance" placeholder="jj/mm/aaaa"><br>
+                    <label for="adresse">Adresse<span>*</span> : </label>         
+                    <textarea name="Text1" cols="40" rows="5" id="adresse"></textarea><br>
+                    <label for="codepostal">Code Postal<span>*</span> : </label>
+                    <input type="text" name="" id="codepostal"><br>
+                    <label for="ville">Ville<span>*</span> : </label>
+                    <input type="text" name="" id="ville"><br>
+                    <label for="pays">Pays<span>*</span> : </label>
+                    <select id="pays">
+                        <option value="">Selectez un pay</option>
+                        <option value="Ma">Maroc</option>
+                        <option value="Fr">Francais</option>
+                        <option value="Es">Espagne</option>
+                    </select><br>
+                    <label for="tele">Telephone : </label>
+                    <input type="text" name="" id="tele"><br>
+                    <label for="fax">Fax : </label>
+                    <input type="text" name="" id="fax"><br>
+                    <label for="mobile">Mobile : </label>
+                    <input type="text" name="" id="mobile"><br>
+                    <label for="email">Email<span>*</span> : </label>
+                    <input type="text" name="" id="email"><br>
+                    <input type="checkbox" name="" id="accept">
+                    <label for="accept" id="lab">Lorem ipsum dolor sit amet<span>*</span></label><br>
+                    <p>(<span>*</span>) Obligatoire </p> 
+                    <input type="button" value="Valide" onclick="" id="button">
+                    <input type="reset" value="Annuler">
+                </form>
+    </div>
+</body>
+</html>
